@@ -47,8 +47,6 @@
                                 <div class="col-lg-6  col-md-6">
                                     <input type="tel" id="phone-1" name="phone" class="form-control" placeholder="+34"
                                         required="">
-                                    <input type="hidden" id="country-1" name="country">
-                                    <input type="hidden" id="iso-1" name="iso">
                                 </div>
                                 <div class="col-lg-6  col-md-6">
                                     <input type="email" id="email" name="email" class="form-control"
