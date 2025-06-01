@@ -1,1 +1,0 @@
-<? include "../inlcudes/gtm.php" ?>
