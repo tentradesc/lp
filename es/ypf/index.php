@@ -9,7 +9,7 @@
    $pageTitle = "TenTrade YPF";
    $pageContent = __DIR__ . '/content.php';
 
-   include __DIR__ . '/../layout.php';
+   include __DIR__ . '/../../layout.php';
 
 ?>
 
