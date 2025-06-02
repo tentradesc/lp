@@ -13,7 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.min.js" referrerpolicy="no-referrer"></script>
     <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
-    <link href="https://lp.tentrade.com/includes/css/toastr.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <script src="https://lp.tentrade.com/includes/js/toastr.min.js"></script>
     <script src="https://lp.tentrade.com/includes/js/jquery-3.7.1.min.js"></script>
     <?= $headExtras ?? '' ?>
