@@ -25,7 +25,16 @@ jQuery(function ($) {
 
                 if (status == 1) {
 
-                    toastr.success('Registration successful');
+                    Toastify({
+                            text: "Registration successful",
+                            duration: 3000,
+                            close: true,
+                            gravity: "bottom", // `top` or `bottom`
+                            position: "left", // `left`, `center` or `right`
+                            style: {
+                                background: "#1b5e20",
+                            },
+                    }).showToast();
 
                     dataLayer.push({
                         'event': 'generate_lead',
@@ -51,8 +60,16 @@ jQuery(function ($) {
                     ? errorMessages[0]
                     : errorMessages.join(', ');
 
-                toastr.error(finalMessage);
-
+                Toastify({
+                        text: finalMessage,
+                        duration: 3000,
+                        close: true,
+                        gravity: "bottom", // `top` or `bottom`
+                        position: "left", // `left`, `center` or `right`
+                        style: {
+                            background: "#1b5e20",
+                        },
+                }).showToast();
             }
 
         });
