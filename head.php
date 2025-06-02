@@ -14,7 +14,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.min.js" referrerpolicy="no-referrer"></script>
     <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-    <script src="https://lp.tentrade.com/includes/js/toastr.min.js"></script>
     <script src="https://lp.tentrade.com/includes/js/jquery-3.7.1.min.js"></script>
     <?= $headExtras ?? '' ?>
     <?php include __DIR__ . '/gtm_head.php'; ?>
