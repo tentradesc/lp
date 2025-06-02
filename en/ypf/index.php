@@ -9,6 +9,10 @@
    $pageTitle = "TenTrade YPF";
    $pageContent = __DIR__ . '/content.php';
 
+   $headExtras = <<<HTML
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+   HTML;
+
    include __DIR__ . '/../../layout.php';
 
 ?>
